@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+* {
+
+    list-style: none;
+
+}
+body {
+    background-color: white;
+    margin: 0%;
+}
+/* TOP BAR */
+.top_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_bar {
+ display: inline;
+}
+.nav_list {
+    margin-bottom: 0;
+    display: flex;
+    letter-spacing: 3px;   
+}
+.nav_list li{
+    margin-left: 1%1%;
+    padding: 10px 20px;
+    font-size: 30px;
+
+}
+.nav_list li a:hover {
+color: white;
+}
+.nav_list li:hover {
+    box-shadow: inset 2px 2px 4px rgb(247, 247, 247), 10px 10px 6px rgb(44, 44, 44);
+    background-color:rgb(44,44,44);
+    border-radius: 0px 40px 0px 40px;
+}
+.nav_list li a{
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    background-color: rgb(40,41,52);
+    border-radius: 100%;
+    border:dashed 11px rgb(247,247,247);
+    text-align: center;
+    font-size: 6vh;
+    padding: 2vh;
+    color: rgb(247,247,247);
+}
+.logo:hover {
+    background-color: rgb(247,247,247);
+    border-radius: 100%;
+    border:dashed 11px rgb(40,41,52);
+    text-align: center;
+    font-size: 6vh;
+    padding: 2vh;
+    color: rgb(40,41,52);
+}
+nav {
+    background-color: rgb(247,247,247);
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+
+}
+header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.welcome {
+    color: rgb(125,47,202);
+    font-size: 4vh;
+
+}
+/*END OF TOP BAR*/
+.profile {
+    background-color: rgb(247,247,247);
+    height: 500px;
+    justify-content:center;
+    align-items: center;
+    margin-top: 150px;
+    display: flex;
+}
+.profile figure img {
+    width: 70vh;
+    border-radius: 70px;
+}
+h1 {
+    font-size: 55px;
+    background-color:white;
+    margin: 5%;
+}
+h1 p {
+    font-size: 4vh;
+}
+h1 span {
+    color: rgb(125,47,202);
+}
