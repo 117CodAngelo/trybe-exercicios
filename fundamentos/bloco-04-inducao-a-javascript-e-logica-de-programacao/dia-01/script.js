@@ -27,5 +27,9 @@ console.log(cx15)
 const ax21 = 10;
 const bx21 = 100;
 console.log(Math.max(bx21, ax21))
-/*  */
+/* 2x2 */
+const ax22 = 101;
+const bx22 = 100;
+const cx22 = 5523
+console.log(Math.max(bx22, ax22, cx22))
 /*  */
