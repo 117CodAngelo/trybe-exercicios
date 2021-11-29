@@ -23,6 +23,9 @@ const ax15 = 100;
 const bx15 = 100;
 let cx15 = ax15 % bx15;
 console.log(cx15)
-/*  */
+/* 2x1 */
+const ax21 = 10;
+const bx21 = 100;
+console.log(Math.max(bx21, ax21))
 /*  */
 /*  */
