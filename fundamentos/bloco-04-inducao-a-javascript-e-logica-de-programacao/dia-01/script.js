@@ -49,3 +49,46 @@ if (bx51 + cx51 + ax51 === 180) {
 } else {
     console.log("verifique os angulos")
 }
+/* 6x1 */
+const chessPiece = 'bispo';
+
+switch (chessPiece.toLowerCase()) {
+  case 'rei':
+    console.log('Rei-> Uma casa apenas para qualquer direção.');
+    break;
+  case 'bispo':
+    console.log('Bispo-> Diagonal.');
+    break;
+  case 'rainha':
+    console.log('Rainha-> Diagonal, horizontal e vertical.');
+    break;
+  case 'cavalo':
+    console.log('Cavalo -> "L" pode pular sobre as peças.');
+    break;
+  case 'torre':
+    console.log('Torre -> Horizontal e vertical.');
+    break;
+  case 'peão':
+    console.log("Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas.");
+    break;
+  default:
+    console.log('Erro, peça inválida!');
+    break;
+};
+/* 7x1 */
+const grade = 51
+if (grade < 0 || grade > 100) {
+    console.log('ERRO');
+} else if (grade >= 90) {
+    console.log('a');
+} else if (grade >= 80) {
+    console.log('b');
+} else if (grade >= 70) {
+    console.log('c'); 
+} else if (grade >= 60) {
+    console.log('d');
+} else if (grade >= 50) {
+    console.log('e');
+} else {
+    console.log('f');
+}
