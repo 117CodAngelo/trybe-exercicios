@@ -27,9 +27,17 @@ console.log(cx15)
 const ax21 = 10;
 const bx21 = 100;
 console.log(Math.max(bx21, ax21))
-/* 2x2 */
-const ax22 = 101;
-const bx22 = 100;
-const cx22 = 5523
-console.log(Math.max(bx22, ax22, cx22))
-/*  */
+/* 3x1 */
+const ax31 = 101;
+const bx31 = 100;
+const cx31 = 5523
+console.log(Math.max(bx31, ax31, cx31))
+/* 4x1 */
+const ax41 = -1000;
+if (ax41 > 0) {
+    console.log("positive")
+} else if (ax41 < 0) {
+    console.log("negative")
+} else {
+    console.log ("null")
+}
