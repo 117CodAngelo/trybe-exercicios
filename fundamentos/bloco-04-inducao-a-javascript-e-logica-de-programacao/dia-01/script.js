@@ -92,3 +92,14 @@ if (grade < 0 || grade > 100) {
 } else {
     console.log('f');
 }
+/* 8x1 */
+let a = 10;
+let b = 3;
+let c = 2;
+let itsParTELLME = false;
+if (c % 2 === 0 || a % 2 === 0 || b % 2 === 0) {
+    itsParTELLME = true;
+} else {
+    console.log(itsParTELLME)
+}
+console.log(itsParTELLME)
