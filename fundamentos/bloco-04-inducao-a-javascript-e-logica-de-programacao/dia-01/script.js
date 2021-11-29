@@ -40,4 +40,12 @@ if (ax41 > 0) {
     console.log("negative")
 } else {
     console.log ("null")
+}/* 5x1 */
+const ax51 = 61;
+const bx51 = 60;
+const cx51 = 60;
+if (bx51 + cx51 + ax51 === 180) {
+    console.log(true);
+} else {
+    console.log("verifique os angulos")
 }
