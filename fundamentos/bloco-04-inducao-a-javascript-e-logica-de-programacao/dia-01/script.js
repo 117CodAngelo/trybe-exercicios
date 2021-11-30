@@ -106,11 +106,42 @@ console.log(itsParTELLME)
 /* 9x1 */
 let e = 10;
 let d = 3;
-let f = 2;
+let payment = 2;
 let = itsimpTELLME = false;
-if (e % 2 === 1 || d % 2 === 1 || f % 2 === 1) {
+if (e % 2 === 1 || d % 2 === 1 || payment % 2 === 1) {
     itsParTELLME = true;
 } else {
     console.log(itsimpTELLME)
 }
 console.log(itsimpTELLME)
+/* 10x1 */
+
+let inss
+let ir = 0;
+
+const recebido = 3000;
+
+if (recebido <= 1556.94) {
+    inss = recebido * 0.08;
+} else if (recebido <= 2594.92) {
+    inss = recebido * 0.09;
+} else if (recebido <= 5189.82) {
+    inss = recebido * 0.11;
+} else {
+    inss = 570.88;
+}
+
+const paymentSemInss = recebido - inss;
+
+if (paymentSemInss <= 1903.98) {
+    ir = 0;
+} else if (paymentSemInss <= 2826.65) {
+    ir = (paymentSemInss * 0.075) - 142.80;
+} else if (paymentSemInss <= 3751.05) {
+    ir = (paymentSemInss * 0.15) - 1345.80;
+} else if (paymentSemInss <= 4664.68) {
+    ir = (paymentSemInss * 0.225) - 636.13;
+} else {
+    ir = (paymentSemInss * 0.275) - 869.36;
+}
+ console.log('salario: ' + (paymentSemInss - ir))
