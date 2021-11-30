@@ -96,10 +96,21 @@ if (grade < 0 || grade > 100) {
 let a = 10;
 let b = 3;
 let c = 2;
-let itsParTELLME = false;
+let = itsParTELLME = false;
 if (c % 2 === 0 || a % 2 === 0 || b % 2 === 0) {
     itsParTELLME = true;
 } else {
     console.log(itsParTELLME)
 }
 console.log(itsParTELLME)
+/* 9x1 */
+let e = 10;
+let d = 3;
+let f = 2;
+let = itsimpTELLME = false;
+if (e % 2 === 1 || d % 2 === 1 || f % 2 === 1) {
+    itsParTELLME = true;
+} else {
+    console.log(itsimpTELLME)
+}
+console.log(itsimpTELLME)
