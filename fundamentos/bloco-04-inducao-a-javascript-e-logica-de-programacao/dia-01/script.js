@@ -145,3 +145,16 @@ if (paymentSemInss <= 1903.98) {
     ir = (paymentSemInss * 0.275) - 869.36;
 }
  console.log('salario: ' + (paymentSemInss - ir))
+/* 10x1 */
+const custoDoProduto = 10;
+const imposto = custoDoProduto * 0.20;
+const custoTotal = custoDoProduto - imposto
+let valorVenda = 20
+let lucro = valorVenda - custoTotal
+if ( custoDoProduto > 0 && valorVenda > 0) {
+    let milUnidades = lucro * 1000
+    console.log(milUnidades)
+} else {
+    console.log('erro')
+}
+
