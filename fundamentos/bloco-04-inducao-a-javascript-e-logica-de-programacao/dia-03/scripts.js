@@ -1,4 +1,4 @@
-/*  possiveis direcoes sao: 'centroBorda' ou 'inicioDireita' ou 'fimEsquerda' */
+/*  possiveis direcoes sao: 'centroBorda' ou 'direito' ou '' que é igual a 'esquerda' */
 let direcao = 'direito';
 let n = ['x', 'x', 'x', 'x', 'x']
 
