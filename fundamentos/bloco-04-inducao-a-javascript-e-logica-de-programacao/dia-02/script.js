@@ -36,7 +36,7 @@ if (mediaAritimetica > 20) {
 } */
 
 /* 5x1 */
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let maiorNumero = null;
 for (let n of numbers) {
     if (maiorNumero <= n) {
@@ -45,4 +45,6 @@ for (let n of numbers) {
         console.log("e menor")
     }
 }
-console.log(maiorNumero)
+console.log(maiorNumero) */
+
+/* 6x1 */
