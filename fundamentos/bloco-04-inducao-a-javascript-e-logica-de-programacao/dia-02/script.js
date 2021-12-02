@@ -72,10 +72,19 @@ for (let n of numbers) {
 console.log(menorNumero) */
 
 /* 8x1 */
-let inicioDoArray = 1;
+/* let inicioDoArray = 1;
 let fimDoArray = 25;
 let array = [];
 for (let index = inicioDoArray; index <= fimDoArray; index += 1) {
     array.push(index);
 }
-console.log(array)
+console.log(array) */
+
+/* 9x1 */
+/* let inicioDoArray = 1;
+let fimDoArray = 25;
+let array = [];
+for (let index = inicioDoArray; index <= fimDoArray; index += 1) {
+    array.push(index / 2);
+}
+console.log(array) */
