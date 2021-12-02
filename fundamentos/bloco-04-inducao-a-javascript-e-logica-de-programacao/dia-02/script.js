@@ -48,3 +48,25 @@ for (let n of numbers) {
 console.log(maiorNumero) */
 
 /* 6x1 */
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numeroDeImpares = [];
+for (let n of numbers) {
+    if (n % 2 === 1)
+    numeroDeImpares.push(n);
+
+}
+if (numeroDeImpares.length >= 1) {
+    console.log(numeroDeImpares.length)
+} else {
+    console.log("não há resultados")
+} */
+
+/* 7x1 */
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+menorNumero = Math.max(...numbers);
+for (let n of numbers) {
+    if (n < menorNumero) {
+        menorNumero = n
+    }
+}
+console.log(menorNumero)
