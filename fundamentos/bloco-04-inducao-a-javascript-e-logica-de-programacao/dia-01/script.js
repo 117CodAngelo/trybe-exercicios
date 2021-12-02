@@ -114,7 +114,7 @@ if (e % 2 === 1 || d % 2 === 1 || payment % 2 === 1) {
     console.log(itsimpTELLME)
 }
 console.log(itsimpTELLME)
-/* 10x1 */
+/* 11x1 */
 
 let inss
 let ir = 0;
