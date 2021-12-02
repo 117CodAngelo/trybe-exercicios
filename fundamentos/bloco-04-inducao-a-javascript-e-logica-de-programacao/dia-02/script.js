@@ -62,11 +62,20 @@ if (numeroDeImpares.length >= 1) {
 } */
 
 /* 7x1 */
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 menorNumero = Math.max(...numbers);
 for (let n of numbers) {
     if (n < menorNumero) {
         menorNumero = n
     }
 }
-console.log(menorNumero)
+console.log(menorNumero) */
+
+/* 8x1 */
+let inicioDoArray = 1;
+let fimDoArray = 25;
+let array = [];
+for (let index = inicioDoArray; index <= fimDoArray; index += 1) {
+    array.push(index);
+}
+console.log(array)
